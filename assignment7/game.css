@@ -1,0 +1,40 @@
+#game-container {
+	margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#game-layer {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: #ffffffa6;
+    border: 2px solid #a96fd7;
+}
+
+.square {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 2px solid #a96fd7;
+}
+
+.Peach{
+    background-color: #ffbdb4; 
+}
+.Skyblue{
+    background-color: #87ceeb; 
+}
+
+.Lilac{
+    background-color: #c8a2c8; 
+}
+body{
+    background-image: url('2.JPG');
+    background-size:100%;
+    background-attachment: fixed;
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #921eff;
+    background-color: #edbef3;
+}

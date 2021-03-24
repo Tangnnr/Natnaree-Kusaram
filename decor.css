@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+.button, .button_proj {
+    margin: 10px;
+    border-radius: 8px;
+    width: 250px;
+    height: 30px;
+    color: white;
+    background-color: #f18ec5;
+}
+
+.top {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.space {
+    height: 70px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+body {
+    font-family: 'Mukta', sans-serif;
+    background-image: url('pictest10.png');
+    background-size: 100%;
+    background-attachment: fixed;
+    /*fixed = bg don't move */
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav {
+    list-style: none;
+    background-color: #f18ec5;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    width: 100%;
+}
+
+.nav li {
+    border-bottom: none;
+    text-align: center;
+}
+
+.nav a {
+    width: 150px;
+    text-decoration: none;
+    /* ลบเส้นใต้ */
+    color: white;
+    display: block;
+    padding: auto;
+    border-bottom: none;
+    transition: .3s;
+    /* animationจางๆ */
+}
+
+.nav a:hover {
+    background-color: pink;
+    color: rgb(252, 255, 75);
+}
+
+.menu {
+    float: right;
+    margin-right: 90px;
+    margin: 0px 90px 0px 10px;
+}
+
+.myport, .nav li, menu {
+    /* line-height: 40px; */
+    /* ระดับกึ่งกลางบรรทัด */
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+.myport {
+    font-weight: bold;
+    width: 200px;
+    color: rgb(252, 255, 75);
+    float: left;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+img#profile {
+    border-radius: 60%;
+    width: 70%;
+    padding: 10px;
+}
+
+.link_contact, .center {
+    text-align: center;
+}
+
+.contact {
+    border-radius: 20%;
+    width: 40px;
+    margin: 2px;
+}
+
+.contact:hover, .button:hover, .button_proj:hover {
+    box-shadow: 0px 0px 4px rgba(134, 134, 134, 0.904);
+}
+
+h3>li {
+    list-style: none;
+}
+
+.drawing {
+    width: 25%;
+    margin: 10px;
+}
+
+.grid-container {
+    grid-template-columns: 10% 30% 40% auto;
+    grid-template-rows: auto;
+    display: grid;
+    grid-gap: 10px;
+    margin-bottom: 10px;
+}
+
+#grid_profile {
+    grid-column: 2/3;
+    text-align: center;
+}
+
+#info {
+    grid-column: 3/4;
+    text-align: center;
+    padding: 10%;
+}
+
+.grid-container2 {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    display: grid;
+    grid-gap: 10px;
+}
+
+#portfolio, #assignment, #work, #about_me, #interest, #Hobbies, #skills, #portfolio, #contact {
+    grid-column: 1/4;
+    text-align: center;
+}
+
+.hb {
+    width: 400px;
+    padding: 10px;
+}
+
+.sk {
+    width: 190px;
+    padding: 10px;
+}
+
+table {
+    margin: auto;
+
+}
+
+.bg_contact {
+    background-color: #f18ec5;
+    bottom: 0%;
+    width: 100%;
+}
+
+#contact {
+    color: white;
+}
+
+.icon {
+    margin: 10px;
+    width: 70px;
+}
+
+.bg, .bg_port, .bg_proj {
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    height: auto;
+    background: rgb(255, 255, 255);
+    border: 2px solid#f18ec5;
+    border-radius: 8px;
+}
+
+.grid-container3 {
+    grid-template-columns: 2% 30% auto;
+    grid-template-rows: auto;
+    display: grid;
+    grid-gap: 10px;
+}
+
+#project {
+    grid-column: 2/3;
+}
+
+#descrip {
+    grid-column: 3/4;
+}
+
+.proj_pic {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.bg_proj {
+    padding-left: 30px;
+}
+
+.button_proj {
+    margin-bottom: 0px;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background-color:rgb(252, 255, 75);
+    color: #f18ec5;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+
+}
+
+#myBtn:hover {
+    background-color:rgb(163, 163, 163);
+    color: white;
+}
+
+@media (max-width:950px)
+{.space {
+    height: 60px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+}
+    .nav {
+        list-style: none;
+        background-color: #f18ec5;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+        position: fixed;
+        width: 100%;
+    }
+    
+    .nav li {
+        border-bottom: none;
+        text-align: center;
+    }
+    
+    .nav a {
+        width: 80px;
+        text-decoration: none;
+        /* ลบเส้นใต้ */
+        color: white;
+        
+        padding: auto;
+        border-bottom: none;
+        transition: .3s;
+        /* animationจางๆ */
+    }
+    
+    .nav a:hover {
+        background-color: pink;
+        color: rgb(252, 255, 75);
+    }
+    
+    .menu {
+        width: 300px;
+        float: right;
+        margin: 0px 60px 0px 10px;
+    }
+    
+    .myport, .nav li, menu {
+        line-height: 40px;
+        /* ระดับกึ่งกลางบรรทัด */
+        font-size: 15px;
+        position: relative;
+        display: inline-block;
+    }
+    
+    .myport {
+        
+        font-weight: bold;
+        width: 200px;
+        color: rgb(252, 255, 75);
+        float: left;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    h3{
+        font-size: 10px;
+    }
+    .grid-container2 {
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        display: grid;
+        grid-gap: 10px;
+    }
+    #portfolio, #assignment, #work, #about_me, #interest, #Hobbies, #skills, #portfolio, #contact {
+        grid-column: 1/span1;
+    }
+    
+    .hb {
+        font-size: 80%;
+        width: 10%;
+    }
+    .bg, .bg_port, .bg_proj {
+        margin: auto;
+        padding: 0px;
+        margin-bottom: 10px;
+        width: 90%;
+        height: auto;
+        background: rgb(255, 255, 255);
+        border: 2px solid#f18ec5;
+        border-radius: 8px;
+    }
+    .sk {
+        font-size: 80%;
+        width: 2%;
+    }
+    .icon {
+       
+        width: 50%;
+    }
+    #project {
+        grid-column: 2/3;
+    }
+    
+    #descrip {
+        grid-column: 3/4;
+    }
+    
+    .proj_pic {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .bg_proj {
+        padding-left: 20px;
+    }
+    
+    .button_proj {
+        margin-bottom: 0px;
+        width: 100px;
+    }
+}
+@media (max-width:600px)
+{
+    .menu {
+        width: 300px;
+        float: right;
+        margin: 0px 0px 5px 10px;
+    }
+    .myport {
+        width: auto;
+        left: 10px;
+    }
+    .myport, .nav li, menu {
+        line-height: 40px;
+        /* ระดับกึ่งกลางบรรทัด */
+        font-size: 15px;
+        position: relative;
+        display: inline-block;
+    }
+    h1{
+        font-size: 15px;
+    }
+    h2{
+        font-size: 10px;
+    }
+    h3{
+        font-size: 8px;
+    }
+    .grid-container2 {
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        display: grid;
+        grid-gap: 10px;
+    }
+    #portfolio, #assignment, #work, #about_me, #interest, #Hobbies, #skills, #portfolio, #contact {
+        grid-column: 1/span1;
+    }
+    
+    .hb {
+        font-size: 70%;
+        width: 10%;
+    }
+    .bg, .bg_port, .bg_proj {
+        margin: auto;
+        padding: 0px;
+        margin-bottom: 10px;
+        width: 90%;
+        height: auto;
+        background: rgb(255, 255, 255);
+        border: 2px solid#f18ec5;
+        border-radius: 8px;
+    }
+    .sk {
+        font-size: 70%;
+        width: 2%;
+    }
+    .icon {
+       
+        width: 50%;
+    }  
+    #project {
+        grid-column: 2/3;
+    }
+    
+    #descrip {
+        grid-column: 3/4;
+    }
+    
+    .proj_pic {
+        width: 100%;
+        margin-bottom: 5px;
+       
+    }
+    
+    .bg_proj {
+        padding-left: 10px;
+    }
+    
+    .button_proj {
+        margin-bottom: 0px;
+        width: 100px;
+    }
+}
+@media(max-width:400px)
+{
+.space {
+    height: 80px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+}
+}

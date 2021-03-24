@@ -1,0 +1,98 @@
+
+a:hover {
+    color: rgb(255, 205, 67);
+}
+body {
+    font-family: 'Roboto';
+    background-image: url('art.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    color: black;
+}
+div {
+    text-align: center;
+}
+
+bigtopic, topic {
+    font-weight: bold;
+    color: rgb(255, 205, 67);
+}
+
+bigtopic {
+    font-size: 30px;
+}
+
+topic {
+    font-size: 20px;
+}
+topic2{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+fonty {
+    font-size: 15px;
+}
+
+.pic {
+    height: 500px;
+    float: right;
+    margin: 10px 100px 10px;
+    border-radius: 5%;
+}
+
+.flex-container2>div {
+    width: 300px;
+    margin: 10px;
+    border: 2px solid white;
+    padding: 1%;
+}
+
+.flex-container>div {
+    width: auto;
+    margin: 10px;
+    padding: 0px 10px 50px;
+    border-radius: 5%;
+}
+
+.flex-container, .flex-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+hr {
+    border: 1px solid white;
+    width: 90%;
+}
+
+hl {
+    background-color: rgb(255, 205, 67);
+    color: rgb(0, 0, 0);
+}
+
+.pic2 {
+    object-fit: cover;
+    height: 300px;
+    border-radius: 5%;
+}
+
+box {
+    padding: 20px;
+    display: block;
+    margin-left: 200px;
+    width: 200px;
+}
+
+box2 {
+    display: block;
+    padding: 50px;
+    width: 90%;
+}
+
+box3 {
+    display: block;
+    padding: 40px 50px;
+    width: 90%;
+}
